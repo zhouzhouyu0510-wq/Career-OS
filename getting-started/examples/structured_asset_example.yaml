@@ -1,0 +1,45 @@
+# Synthetic Demo｜完全虚构示例，不使用任何真实候选人、学校、企业、项目、投递或面试数据。
+# Optional Structured Example：普通用户无需手工编写此文件。
+# 本文件只展示已确认Human-readable资产可以如何转换为机器可读形式。
+
+candidate:
+  candidate_id: SYN-USER-EXAMPLE
+  display_name: 示例候选人
+  education: 商科研究生
+  career_stage: 校园招聘
+  confirmed_capabilities:
+    - 公开资料研究
+    - 结构化分析
+  skills_boundary:
+    not_confirmed:
+      - 编程
+      - 高级统计建模
+
+experience:
+  experience_id: SYN-EXP-001
+  organization: 示例机构Alpha
+  role: 研究助理
+  context: 团队开展一个完全虚构的消费行业研究项目。
+  deliverable: 一份由项目组共同完成的行业研究报告。
+  user_confirmed: true
+
+evidence:
+  - evidence_id: SYN-EV-001
+    claim: 可以独立完成公开资料研究与信息整理。
+    fact: 独立完成报告中市场概况部分的公开资料收集与初稿撰写。
+    ownership: 负责分配章节的资料收集与初稿；完整报告由项目组共同完成。
+    result_scope: 不拥有完整报告全部分析，也不拥有最终决策权。
+    source: 用户确认的项目回忆
+    confidence: confirmed
+    external_safe: true
+    related_experience: SYN-EXP-001
+
+  - evidence_id: SYN-EV-002
+    claim: 能够根据反馈修改分析表达。
+    fact: 根据项目负责人的两轮反馈修改分配章节的结构与表述。
+    ownership: 负责本人章节的修改；反馈标准由项目负责人提出。
+    result_scope: 只支持迭代与沟通能力，不代表主导完整报告。
+    source: 用户确认的项目回忆
+    confidence: confirmed
+    external_safe: true
+    related_experience: SYN-EXP-001
