@@ -34,9 +34,9 @@ Synthetic Demo｜完全虚构示例，不使用任何真实候选人、企业、
 
 ## Gap差异
 
-- **P1 Gap：**没有Enterprise Strategy Decision Ownership；不能声称制定公司战略或拥有管理层决策结果。
-- **P2 Gap：**没有Direct Risk-management Ownership、Risk Model Development或Regulatory Compliance Ownership。
-- **共同Technical Boundary：**SQL、Programming、Advanced Statistical Modeling与Production Data Pipeline均缺少Confirmed Evidence，不进入任一Resume。
+- **P1 Gap：** 没有Enterprise Strategy Decision Ownership；不能声称制定公司战略或拥有管理层决策结果。
+- **P2 Gap：** 没有Direct Risk-management Ownership、Risk Model Development或Regulatory Compliance Ownership。
+- **共同Technical Boundary：** SQL、Programming、Advanced Statistical Modeling与Production Data Pipeline均缺少Confirmed Evidence，不进入任一Resume。
 
 ## 结论
 
