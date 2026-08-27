@@ -91,6 +91,18 @@ AI负责整理、提问、结构化和格式转换；用户负责提供事实、
 | Resume Tailor | 在上述基础上，关键经历的Ownership、Result Scope和技术能力边界已经明确 |
 | Interview Coach | 在上述基础上，已有实际投递Resume、高价值Story、关键Evidence及事实与责任边界 |
 
+## 资产准备好后，怎么开始使用？
+
+Career OS Public Edition提供的是可阅读、可复用的工作流规范与示例，不是托管式SaaS或一键安装工具。
+
+完成自己的事实资产后，可以将相关资产作为上下文提供给通用AI工具，并按照对应Runtime的公开规范执行：
+
+- [Job Fit Analyzer](../skills/job-fit-analyzer/README.md)：输入Candidate Profile、主要Experience / Evidence、Preference & Constraints以及目标JD，用于选岗与志愿排序。
+- [Resume Tailor](../skills/resume-tailor/README.md)：在确定目标岗位后，读取同一事实底座进行Evidence选择、岗位化表达和简历收敛。
+- [Interview Coach](../skills/interview-coach/README.md)：在实际投递后，结合Submission Resume、Story与Evidence进行问题准备、模拟、复盘和学习迁移。
+
+无论使用哪一种AI工具，下游Runtime都只能选择、组织和翻译已经确认的事实，不能因为岗位需要而创造新的Candidate Fact。
+
 ## 不要一开始过度建设
 
 不需要为了使用Career OS先建立几十个文件。更有效的顺序是：
