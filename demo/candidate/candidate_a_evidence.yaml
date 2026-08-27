@@ -1,34 +1,112 @@
 # Synthetic Demo｜完全虚构示例，不使用任何真实候选人、企业、投递或面试数据。
 evidence_assets:
   - evidence_id: SYN-EV-ALPHA-01
+    experience_id: SYN-EXP-ALPHA
     organization: Company Alpha
     display_organization: 甲公司（Company Alpha）
     role: Industrial Research Intern
     display_role: 产业研究实习生（Industrial Research Intern）
+    evidence_type: deliverable
     fact: 基于公开资料与专家访谈笔记，完成6份Synthetic Industry Brief。
     ownership: 独立撰写分配到的Brief；行业优先级与最终决策由Project Lead负责。
+    result_scope: 产出用于项目组内部研究讨论，不代表Candidate制定企业战略或投资决策。
     capabilities: [industry_research, synthesis, writing]
+  - evidence_id: SYN-EV-ALPHA-02
+    experience_id: SYN-EXP-ALPHA
+    organization: Company Alpha
+    display_organization: 甲公司（Company Alpha）
+    role: Industrial Research Intern
+    display_role: 产业研究实习生（Industrial Research Intern）
+    evidence_type: analytical_framework
+    fact: 对18家Synthetic Company按4类市场分组，整理商业模式、进入壁垒与采用信号的Comparison Matrix。
+    ownership: 独立搭建分配模块的比较框架并完成资料录入；最终分组口径由Project Lead确认。
+    result_scope: 形成可比较的研究输入，不主张该Matrix直接改变项目或企业决策。
+    capabilities: [industry_research, structured_analysis, comparison]
+  - evidence_id: SYN-EV-ALPHA-03
+    experience_id: SYN-EXP-ALPHA
+    organization: Company Alpha
+    display_organization: 甲公司（Company Alpha）
+    role: Industrial Research Intern
+    display_role: 产业研究实习生（Industrial Research Intern）
+    evidence_type: evidence_synthesis
+    fact: 将5次Synthetic Expert Conversation的笔记整理为Assumption / Uncertainty Tracker，标记8项待验证问题。
+    ownership: 负责笔记结构化与问题标记；未独立主持全部访谈，也不拥有专家观点。
+    result_scope: 帮助团队明确后续核验重点，不等同于Formal Risk Assessment或最终判断。
+    capabilities: [stakeholder_interviews, evidence_traceability, uncertainty_identification]
   - evidence_id: SYN-EV-BETA-01
+    experience_id: SYN-EXP-BETA
     organization: Company Beta
     display_organization: 乙公司（Company Beta）
     role: Financial Data Intern
     display_role: 金融数据实习生（Financial Data Intern）
+    evidence_type: data_validation
     fact: 分4批复核240条Synthetic Record，并提出3项规则澄清建议。
     ownership: 负责分配到的数据复核与建议初稿；规则审批由Data Owner负责。
+    result_scope: 支持数据质量复核与规则解释，不构成Direct Risk-management Experience或合规审批。
     capabilities: [data_validation, rule_interpretation, quality_control]
+  - evidence_id: SYN-EV-BETA-02
+    experience_id: SYN-EXP-BETA
+    organization: Company Beta
+    display_organization: 乙公司（Company Beta）
+    role: Financial Data Intern
+    display_role: 金融数据实习生（Financial Data Intern）
+    evidence_type: exception_analysis
+    fact: 将复核问题归纳为5类Issue Taxonomy，并回溯28条Synthetic Exception至原始说明。
+    ownership: 负责分配范围内的异常回溯与Taxonomy初稿；最终处置由Data Owner决定。
+    result_scope: 提高异常讨论的结构化程度，不代表Candidate拥有正式风险处置或控制职责。
+    capabilities: [exception_analysis, source_traceability, quality_control]
+  - evidence_id: SYN-EV-BETA-03
+    experience_id: SYN-EXP-BETA
+    organization: Company Beta
+    display_organization: 乙公司（Company Beta）
+    role: Financial Data Intern
+    display_role: 金融数据实习生（Financial Data Intern）
+    evidence_type: monitoring_support
+    fact: 为4批复核任务维护Weekly QA Summary，跟踪完整性、一致性与待确认项状态。
+    ownership: 负责汇总分配批次的状态与说明；未搭建Production Pipeline或自动化系统。
+    result_scope: 仅用于团队内部Data-quality Monitoring，不是监管报告、风险模型或正式控制体系。
+    capabilities: [monitoring, reporting, attention_to_detail]
   - evidence_id: SYN-EV-GAMMA-01
+    experience_id: SYN-EXP-GAMMA
     organization: Company Gamma
     display_organization: 丙公司（Company Gamma）
     role: Business Analytics Intern
     display_role: 商业分析实习生（Business Analytics Intern）
+    evidence_type: reporting_analysis
     fact: 搭建12类Reporting View，并归纳36个虚构商户账户的重复模式。
     ownership: 负责分析与Memo；商业决策由Business Team承担。
+    result_scope: 为业务团队提供观察线索，不主张Candidate拥有商业决策或产品策略Ownership。
     capabilities: [business_analysis, monitoring, communication]
+  - evidence_id: SYN-EV-GAMMA-02
+    experience_id: SYN-EXP-GAMMA
+    organization: Company Gamma
+    display_organization: 丙公司（Company Gamma）
+    role: Business Analytics Intern
+    display_role: 商业分析实习生（Business Analytics Intern）
+    evidence_type: segmentation
+    fact: 将36个虚构商户账户归纳为4类Synthetic Behavior Group，并提出3项待验证业务假设。
+    ownership: 负责探索性分组与假设初稿；分组未被验证为因果结论。
+    result_scope: 用于团队讨论与后续核验，不等同于Product Segmentation Ownership或增长结果。
+    capabilities: [segmentation, hypothesis_generation, business_analysis]
+  - evidence_id: SYN-EV-GAMMA-03
+    experience_id: SYN-EXP-GAMMA
+    organization: Company Gamma
+    display_organization: 丙公司（Company Gamma）
+    role: Business Analytics Intern
+    display_role: 商业分析实习生（Business Analytics Intern）
+    evidence_type: decision_support
+    fact: 将分析结果整理为5页Synthetic Decision Memo，提出3个后续核验问题。
+    ownership: 独立完成Memo初稿并根据反馈修改；优先级与行动决定由Business Team负责。
+    result_scope: 支持讨论聚焦，不主张Memo直接带来收入、产品或风险结果。
+    capabilities: [written_synthesis, decision_support, stakeholder_communication]
   - evidence_id: SYN-EV-LEAD-01
+    experience_id: SYN-EXP-LEAD
     organization: Graduate Project Group
     display_organization: 研究生项目组（Graduate Project Group）
     role: Project Lead
     display_role: 项目负责人（Project Lead）
+    evidence_type: leadership
     fact: 协调3个Workstream完成4个虚构公司Case，并整合最终展示。
     ownership: 负责任务排期与整合，不拥有每个Workstream的全部分析。
+    result_scope: 保证Synthetic Project按计划完成展示，不代表Candidate独立完成全部Case研究。
     capabilities: [leadership, coordination, delivery]

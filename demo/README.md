@@ -14,13 +14,23 @@ Synthetic Demo｜完全虚构示例，不使用任何真实候选人、企业、
 ## 推荐阅读顺序
 
 1. [候选人画像（Candidate Profile）](candidate/candidate_a_profile.yaml)
-2. [候选人Evidence](candidate/candidate_a_evidence.yaml)
+2. [候选人Evidence Pool](candidate/candidate_a_evidence.yaml)
 3. [D公司岗位](jobs/company_delta_jobs.yaml)
 4. [岗位清单（Job Inventory）](01_job_fit/job_inventory.md)
 5. [有顺序志愿组合（Ordered Portfolio）](01_job_fit/portfolio_recommendation.md)
-6. [简历决策记录（Resume Decision Log）](02_resume_tailoring/decision_log.md)
-7. [定制Evidence](02_resume_tailoring/tailored_evidence_selection.md)
-8. [问题地图（Question Map）](03_interview_coach/question_map.md)
-9. [参考答案准备（Answer Preparation）](03_interview_coach/answer_preparation.md)
-10. [模拟与复盘（Mock / Debrief）](03_interview_coach/mock_debrief_example.md)
-11. [学习迁移（Learning Migration）](03_interview_coach/learning_migration.md)
+6. 按下方顺序阅读Resume Tailoring完整链路
+7. [问题地图（Question Map）](03_interview_coach/question_map.md)
+8. [参考答案准备（Answer Preparation）](03_interview_coach/answer_preparation.md)
+9. [模拟与复盘（Mock / Debrief）](03_interview_coach/mock_debrief_example.md)
+10. [学习迁移（Learning Migration）](03_interview_coach/learning_migration.md)
+
+## Resume Tailoring阅读路径
+
+1. [Evidence Pool](candidate/candidate_a_evidence.yaml)
+2. [Decision Log](02_resume_tailoring/decision_log.md)
+3. [Strategy Review Draft](02_resume_tailoring/strategy_review_draft.md)
+4. [Strategy Submission Draft](02_resume_tailoring/strategy_submission_draft.md)
+5. [Risk Submission Draft](02_resume_tailoring/risk_submission_draft.md)
+6. [P1 / P2 Tailoring Comparison](02_resume_tailoring/p1_p2_tailoring_comparison.md)
+
+补充审计入口：[Evidence Selection / Decision Trace](02_resume_tailoring/tailored_evidence_selection.md)。它解释“为什么选、怎么翻译、边界在哪里”，不承担最终Resume展示功能。
