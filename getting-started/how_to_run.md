@@ -37,7 +37,7 @@ Demo、三张图片、screenshots、无关docs以及另外两个模块的Runtime
 
 如果你使用的AI工具支持持续保存项目文件，可以建立`My Career OS`工作区，长期放置Candidate Profile、Experience、Evidence、Preference、Story和三个Public Runtime Specification。以后每次新投递主要补充新JD、Job Fit结果、实际提交Resume或面试记录。
 
-不要把AI的“记忆”当成事实数据库。**用户自己保存的Markdown资产仍然是可控的Source of Truth副本。**每次运行前应确认AI能访问最新版资产。
+不要把AI的“记忆”当成事实数据库。**用户自己保存的Markdown资产仍然是可控的Source of Truth副本。** 每次运行前应确认AI能访问最新版资产。
 
 > 将真实求职资产交给任何AI工具前，请根据所使用服务的隐私政策和自己的材料权限判断是否适合上传；公司内部、客户、未公开项目或其他敏感材料应优先脱敏或只保留事实摘要。
 
