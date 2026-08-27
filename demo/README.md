@@ -2,7 +2,7 @@ Synthetic Demo｜完全虚构示例，不使用任何真实候选人、企业、
 
 # 端到端演示（End-to-end Demo）
 
-本目录通过完全虚构的**候选人A（Candidate A）**与**D公司（Company Delta）**演示Career OS如何连接选岗、简历与面试学习。
+本目录通过完全虚构的**候选人A（Candidate A）与D公司（Company Delta）** 演示Career OS如何连接选岗、简历与面试学习。
 
 所有人物、公司、岗位、数字、Evidence、Resume与Interview均为Synthetic，不映射任何真实Candidate或招聘数据。
 
