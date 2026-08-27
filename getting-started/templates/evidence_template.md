@@ -1,6 +1,35 @@
 # Evidence｜证据记录模板
 
-> 直接复制本模板，为可能进入简历或面试的重要Claim建立记录。每个字段下面的一句话说明其用途。
+## AI协作填写｜最简单用法
+
+### 1. 你给AI什么
+
+- 本模板；
+- 已经由你确认的Experience Markdown。
+
+不要在这一步重新让AI从未经确认的原始材料直接生成Evidence，也不需要为每个日常任务建立Evidence。
+
+### 2. 复制这段Prompt
+
+```text
+请只从我已经确认的Experience Markdown中，提取值得用于Job Fit、简历或面试的重要Claim，并严格按照Evidence模板整理。
+
+每条必须记录Fact、Ownership、Result Scope、Source、Confidence和External-safe。无法从已确认Experience确定的字段请标记“待确认”，不得推断；项目结果不得自动写成个人结果，没有依据的数字和技术能力不得补充。
+
+请先列出候选Evidence及待确认问题；等我确认后，再输出完整Evidence Markdown。不需要为每个日常任务建立Evidence。
+```
+
+### 3. AI应该先做什么
+
+先筛选真正值得进入Job Fit、简历或面试的重要Claim，并把缺少Source、Ownership或Result Scope的地方列为待确认。
+
+### 4. 你确认后最终得到什么
+
+一条或一组可追溯的Evidence记录。每个重要字段都应由你确认后再保存。
+
+---
+
+> 以下是最终Markdown的填写结构。每个字段下面的一句话说明其用途。
 
 ## Evidence ID
 
