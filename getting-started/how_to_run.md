@@ -23,6 +23,7 @@
 - 自己与当前任务相关的事实资产；
 - 本次JD、实际提交Resume或其他任务材料；
 - 对应`skills/<module>/`内的Runtime及配套规则。
+- 如果AI工具不能直接读取整个文件夹，请将当前模块需要的文件逐个上传即可。
 
 Demo、三张图片、screenshots、无关docs以及另外两个模块的Runtime都不需要上传。
 
