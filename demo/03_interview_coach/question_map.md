@@ -2,14 +2,32 @@ Synthetic Demo｜完全虚构示例，不使用任何真实候选人、企业、
 
 # 战略分析岗问题地图（Question Map）
 
-| Question Pattern | Priority | Provenance | Assessment Target |
-|---|---|---|---|
-| 请用与本岗位相关的方式介绍自己 | Must | generated_predictive | Candidate Identity与Evidence Priority |
-| 为什么选择D公司与战略分析岗 | Must | generated_predictive | Motivation与Role Understanding |
-| 深入讲一份Industry Brief | Must | generated_predictive | Research Depth与Ownership |
-| 哪些决策由Project Lead负责 | Must | mock_generated | Ownership Boundary |
-| 如何协调存在冲突的Workstream | Should | generated_predictive | Leadership与Delivery |
-| 如何分析一个陌生市场 | Should | generated_predictive | Business Judgment |
-| 是否拥有高级Strategy Model经验 | If Time Allows | generated_predictive | Honest Gap Defense |
+问题地图不是题库堆砌，而是根据目标岗位、实际投递简历与Evidence边界，判断哪些问题最值得优先准备。
 
-本Demo没有真实Interview Record，因此不会产生`observed_real`问题。
+| 可能问题 | 准备优先级 | 为什么会问 |
+|---|---|---|
+| 请用与本岗位相关的方式介绍自己 | 必须准备 | 判断候选人能否快速说明自身定位，并选择最相关的Evidence |
+| 为什么选择D公司与战略分析岗 | 必须准备 | 判断求职动机和对岗位的理解是否具体 |
+| 深入讲一份行业简报 | 必须准备 | 核验研究深度、分析过程与个人责任 |
+| 哪些决策由项目负责人承担 | 必须准备 | 检查是否清楚区分个人贡献与团队决策 |
+| 如何协调存在冲突的工作组 | 建议准备 | 判断协调推进与交付能力 |
+| 如何分析一个陌生市场 | 建议准备 | 判断商业分析思路是否结构化 |
+| 是否有高级战略模型经验 | 时间允许再准备 | 检查候选人能否诚实说明能力缺口，而不是临时包装 |
+
+## 问题来源说明
+
+本Synthetic Demo没有真实Interview Record，因此这里的问题只属于**预测性问题**或**模拟生成问题**，不会冒充真实历史面经，也不会生成`observed_real`记录。
+
+### Technical Trace｜问题来源
+
+| 问题 | Provenance |
+|---|---|
+| 请用与本岗位相关的方式介绍自己 | generated_predictive |
+| 为什么选择D公司与战略分析岗 | generated_predictive |
+| 深入讲一份行业简报 | generated_predictive |
+| 哪些决策由项目负责人承担 | mock_generated |
+| 如何协调存在冲突的工作组 | generated_predictive |
+| 如何分析一个陌生市场 | generated_predictive |
+| 是否有高级战略模型经验 | generated_predictive |
+
+下一步：[查看参考答案准备](answer_preparation.md)

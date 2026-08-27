@@ -2,34 +2,63 @@ Synthetic Demo｜完全虚构示例，不使用任何真实候选人、企业、
 
 # 参考答案示例（Answer Preparation）
 
-Full Reference Answer用于理解结构与脱稿练习，不是Candidate Fact，也不建议逐字背诵。
+参考答案用于理解结构和脱稿练习，不是新的候选人事实，也不建议逐字背诵。
 
-## Must｜请介绍自己
+## 必须准备｜请介绍自己
 
-**面试官在考什么：** 候选人A能否把Research、Data Discipline与目标岗位连接起来，而不是按时间顺序报流水账。
+**面试官在考什么**  
+候选人A能否把研究能力、数据质量意识与目标岗位连接起来，而不是按时间顺序罗列经历。
 
-**推荐结构：** Candidate Identity → 两个Evidence Anchor → Role Connection。
+**推荐结构**  
+一句话定位 → 两个核心经历Evidence → 为什么与岗位匹配。
 
-**完整参考答案：**  
-我是一名经济学研究生，比较擅长把陌生的业务问题拆成结构化、可验证的分析。在甲公司的Synthetic Internship中，我结合公开资料和专家访谈笔记，完成了6份Industry Brief；在乙公司的数据项目中，我又从240条Synthetic Record的复核里认识到，分析质量不仅取决于观点，也取决于规则和证据是否可靠。这两段经历让我形成了“研究框架 + Evidence意识”的组合，也是我关注战略分析岗的原因：这个岗位既需要把问题想清楚，也需要把结论转化为管理者能使用的信息。
+**完整参考答案**  
+我是一名经济学研究生，比较擅长把陌生的业务问题拆成结构化、可验证的分析。在甲公司的虚构实习中，我结合公开资料和专家访谈笔记，完成了6份行业简报；在乙公司的虚构数据项目中，我又参与复核了240条数据记录，这让我意识到，分析质量不仅取决于观点，也取决于规则和Evidence是否可靠。这两段经历逐渐形成了我“研究框架 + Evidence意识”的能力组合。我关注战略分析岗，是因为这个岗位既需要把问题想清楚，也需要把结论整理成决策者能够使用的信息。
 
-**Short Version：**  
-我是一名经济学研究生，核心优势是Structured Research与Evidence Quality。我的Synthetic Experience覆盖产业研究、金融数据复核和商业分析，希望把这套能力用于更具Decision Relevance的战略工作。
+**30–45秒精简版**  
+我是一名经济学研究生，核心优势是结构化研究和Evidence质量意识。我的虚构经历覆盖产业研究、金融数据复核和商业分析，我希望把这些能力用于战略分析：既能拆解陌生问题，也能关注结论背后的证据是否可靠。
 
-**Key Anchors：** 研究拆解；证据质量；管理层使用；岗位连接。
+**关键锚点**  
+研究拆解；Evidence质量；决策者使用；岗位连接。
 
-**Boundary：** 候选人A独立完成分配到的Research与Validation Output，但不拥有Enterprise Strategy Decision。
+**事实与责任边界**  
+候选人A独立完成分配到的研究与数据复核产出，但不拥有企业级战略决策权。
 
-## Must｜Gap Defense：Strategy Ownership
+**可能追问**  
+深入讲一份行业简报。
 
-**完整参考答案：**  
-我还没有直接负责过企业级战略决策。最相邻的Evidence，是围绕产业问题开展研究、搭建分析视图，并把发现提炼成Brief。这些经历能证明我的Problem Framing、Evidence Synthesis与Communication基础，但我仍需要继续学习如何在组织层面比较不同方案，并跟踪决策实施效果。
+## 必须准备｜如何说明缺少直接战略决策经验
 
-**Key Anchors：** 承认Gap；Adjacent Evidence；Transferable Process；Learning Need。
+**面试官在考什么**  
+候选人能否诚实说明Gap，同时解释哪些已有Evidence可以迁移到岗位。
 
-## If Time Allows｜Advanced Strategy Model
+**完整参考答案**  
+我目前还没有直接负责过企业级战略决策。最接近的经历，是围绕产业问题开展研究、搭建分析视图，再把发现提炼成行业简报和决策备忘录。这些经历可以证明我具备问题拆解、Evidence综合和书面沟通的基础，但不能说明我已经拥有组织层面的战略决策经验。这个部分仍需要我继续学习，包括如何比较不同方案，以及怎样跟踪决策实施效果。
 
-- Suggested Structure：承认Boundary → 说明Adjacent Analysis → 解释学习路径
-- Recommended Evidence：SYN-EV-ALPHA-01、SYN-EV-GAMMA-01
-- Knowledge to Review：Scenario Construction与Sensitivity Analysis
-- Boundary：不得声称Model Ownership或Prior Implementation
+**30–45秒精简版**  
+我没有直接拥有过企业级战略决策权，但做过产业研究、分析视图和决策信息提炼。这些Evidence能支持问题拆解与研究综合能力，不能替代真正的战略Ownership；方案比较和实施跟踪仍是我需要继续学习的部分。
+
+**关键锚点**  
+承认缺口；相邻Evidence；可迁移的分析过程；明确学习方向。
+
+**事实与责任边界**  
+不能把研究输入和分析支持升级为企业战略Ownership。
+
+**可能追问**  
+哪些决策由项目负责人承担？
+
+## 时间允许再准备｜是否有高级战略模型经验
+
+**推荐结构**  
+承认能力边界 → 说明相邻分析经历 → 解释准备学习的知识。
+
+**可使用Evidence**  
+SYN-EV-ALPHA-01、SYN-EV-GAMMA-01。
+
+**需要复习的知识**  
+情景构建（Scenario Construction）与敏感性分析（Sensitivity Analysis）。
+
+**事实与责任边界**  
+不得声称拥有模型Ownership或实际落地经验。
+
+下一步：[查看模拟与复盘示例](mock_debrief_example.md)

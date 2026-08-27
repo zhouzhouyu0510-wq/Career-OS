@@ -4,20 +4,35 @@ Synthetic Demo｜完全虚构示例，不使用任何真实候选人、企业、
 
 下一场虚构面试：D公司风险分析岗（Risk Analyst）。
 
-```yaml
-inherited:
-  - 在Project Outcome前先说明Personal Ownership。
-  - 使用简洁、Evidence-first的Career Narrative。
-dropped_as_irrelevant:
-  - Enterprise Strategy Scenario Design。
-upgraded_priority:
-  - 解释Data Validation与Risk Management的相邻关系和边界。
-  - 准备缺少Risk-model Ownership的诚实回答。
-downgraded_priority:
-  - Industry Brief Story只作为备用案例。
-new_role_specific_risks:
-  - Rule Monitoring与Formal Compliance Responsibility的区别。
-  - Risk Reporting Terminology。
-```
+学习迁移不是把上一场准备材料整体复制到下一场，而是判断哪些表达经验可以复用、哪些岗位专属内容需要舍弃、哪些问题只应形成复核信号。
 
-这次Migration继承通用表达学习，丢弃战略岗专属内容，并加入风险岗的新问题；不会把上一场Preparation Plan整体复制过来。
+## 哪些内容会迁移到下一岗位
+
+- 在介绍项目结果前，先说清楚个人承担的任务与Ownership；
+- 继续使用简洁、Evidence优先的职业叙事。
+
+这些属于跨岗位都适用的表达学习，因此可以从战略分析岗迁移到风险分析岗。
+
+## 哪些内容不会机械复制
+
+- 企业战略情景设计属于战略岗专属内容，在风险岗准备中移除；
+- 行业简报故事从核心案例降为备用案例。
+
+迁移会重新判断岗位相关性，不会因为上一场已经准备过，就继续占用高优先级。
+
+## 哪些只生成复核信号（Review Signal）
+
+- 提高“数据复核与风险管理之间关系和边界”的准备优先级；
+- 准备如何诚实说明缺少风险模型Ownership；
+- 复核规则监测与正式合规责任的区别；
+- 复核风险报告相关术语是否准确。
+
+这些内容只改变下一场的准备重点，不会反向创造风险管理经历。
+
+## 为什么不能自动修改Candidate事实
+
+Learning Migration处理的是“下一场应该怎么准备”，不是“候选人做过什么”。因此系统遵守**不自动修改事实（No Automatic Mutation）**：任何新理解最多生成Review Signal，只有经过事实核验后，才可能进入Source of Truth。
+
+本Synthetic Demo没有真实Interview Record，也不会把模拟表现写成真实薄弱项或正式面试学习记录。
+
+返回：[3分钟Demo首页](../README.md)

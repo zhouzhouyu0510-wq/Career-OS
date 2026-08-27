@@ -2,28 +2,30 @@ Synthetic Demo｜完全虚构示例，不使用任何真实候选人、企业、
 
 # 模拟与复盘（Mock / Debrief Example）
 
-## 模拟追问（Mock Exchange）
+## 模拟追问
 
-**Interviewer：** Industry Brief中，哪些部分由你个人负责？
+**面试官：**行业简报中，哪些部分由你个人负责？
 
-**Synthetic Answer：** 我研究了市场，并形成了最终建议。
+**模拟回答：**我研究了市场，并形成了最终建议。
 
-**Dynamic Follow-up：** 你具体独立完成了哪些章节？最终建议由谁决定？
+**动态追问：**你具体独立完成了哪些章节？最终建议由谁决定？
 
-**Boundary Clarification：** 我独立撰写了分配到的研究模块并总结含义；Project Lead设定行业优先级并拥有最终建议。
+**边界澄清：**我独立撰写了分配到的研究模块并总结其含义；项目负责人设定行业优先级并拥有最终建议权。
 
-这次追问由Ownership Ambiguity触发，不是固定追问脚本。
+这次追问由Ownership表述不清触发，不是固定追问脚本。
 
-## 准备、现场与改进（Prepared / Actual / Better）
+## 准备答案、实际回答与更优结构
 
-- Prepared：尽早说明Research Scope与Project Lead Boundary。
-- Actual Synthetic Answer：容易让人误以为Candidate拥有Final Recommendation。
-- Better Structure：Personal Task → Analysis → Output → Decision Boundary。
+- **准备答案：**尽早说明个人研究范围和项目负责人的决策边界。
+- **实际回答：**“形成了最终建议”容易让人误以为候选人拥有最终建议权。
+- **更优结构：**个人任务 → 分析过程 → 个人产出 → 最终决策由谁负责。
 
-## 诊断（Diagnosis）
+## 问题诊断
 
-- Question-level：Ownership Wording Risk
-- Story-level：事实本身清楚，但Boundary需要前置
-- Session-level：形成一个Watch Signal，不激活长期Weakness
+- **本题层面：**存在Ownership措辞风险。
+- **故事层面：**事实本身清楚，但责任边界需要更早说明。
+- **本次模拟层面：**只形成一条待观察信号，不直接认定为长期薄弱项。
 
-该Synthetic Exchange不构成Candidate Performance Evidence，也不会更新Formal Learning Record。
+这段Synthetic交流不构成候选人真实表现Evidence，也不会更新正式学习记录。
+
+下一步：[查看如何迁移到下一岗位](learning_migration.md)

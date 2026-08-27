@@ -2,48 +2,50 @@ Synthetic Demo｜完全虚构示例，不使用任何真实候选人、企业、
 
 # P1 / P2简历决策记录（Resume Decision Log）
 
-## Source of Truth
+## 事实来源（Source of Truth）
 
-本轮只读取`candidate_a_evidence.yaml`中的10条Synthetic Evidence：甲、乙、丙三段Experience各3条，Leadership 1条。Resume输出不新增事实、数字、Ownership或Result。
+本轮只读取候选人Evidence Pool中的10条虚构Evidence：甲、乙、丙三段实习各3条，项目协调经历1条。简历输出不会新增事实、数字、Ownership或结果。
 
-## P1｜Strategy Review Draft
+## P1｜战略分析岗内容评审稿（Review Draft）
 
-Review Draft保留全部10条Evidence，以便Candidate先审阅事实边界和表达方向：
+内容评审稿保留全部10条Evidence，目的是让候选人先审阅事实边界和表达方向：
 
-- 甲公司3条：Research、Comparison Matrix、Assumption / Uncertainty Tracker；
-- 丙公司3条：Reporting View、Behavior Group、Decision Memo；
-- 乙公司3条：Record Validation、Exception Taxonomy、Weekly QA Summary；
-- Leadership 1条：多Workstream协调。
+- 甲公司3条：产业研究、市场比较矩阵、假设与不确定性清单；
+- 丙公司3条：分析视图、探索性行为分组、决策备忘录；
+- 乙公司3条：数据复核、异常分类与回溯、每周数据质量汇总；
+- 项目协调1条：协调多个工作组完成交付。
 
-## P1｜Review → Submission收敛
+## P1｜从内容评审稿收敛到投递稿
 
-| Review内容 | Submission处理 | 原因 |
+| 评审稿内容 | 投递稿处理 | 原因 |
 |---|---|---|
-| SYN-EV-GAMMA-01 + 02两条 | 合并为1条 | 同属Pattern Analysis，单列会重复 |
-| SYN-EV-BETA-02 + 03两条 | 合并为1条 | P1只需保留Data-quality Differentiator |
-| 三段Experience均完整展开 | 排序为Alpha → Gamma → Beta | 对齐Strategy岗位的Research优先级 |
-| 10条Review Bullet | 收敛为8条Submission Bullet | 接近一页内容密度，同时保留全部Evidence Trace |
+| SYN-EV-GAMMA-01 + 02两条 | 合并为1条 | 都属于模式分析，单列会重复 |
+| SYN-EV-BETA-02 + 03两条 | 合并为1条 | P1只需保留数据质量视角作为差异化补充 |
+| 三段实习均完整展开 | 排序为甲公司 → 丙公司 → 乙公司 | 对齐战略分析岗的研究优先级 |
+| 10条评审稿Bullet | 收敛为8条投递稿Bullet | 接近一页内容密度，同时保留全部Evidence追溯关系 |
 
-未删除任何Canonical Evidence；被压缩内容仍留在Source of Truth与Decision Trace。
+未删除任何Canonical Evidence；被压缩内容仍保留在Source of Truth与决策轨迹中。
 
-## P2｜Risk Submission重排
+## P2｜风险分析岗投递稿重排
 
-- 乙公司置于首段，突出Data Validation、Rule Interpretation、Exception Traceability与QA Monitoring；
-- 丙公司置于第二段，只翻译为Monitoring / Reporting Support；
-- 甲公司置于第三段，只保留Evidence Traceability与Uncertainty Identification；
-- SYN-EV-ALPHA-02不进入P2 Submission，因为市场比较框架与岗位核心职责距离较远；
-- Data Validation保持`adjacent_strong`，禁止写成Direct Risk-management Experience。
+- 乙公司置于首段，突出数据复核、规则理解、异常追溯与质量监测；
+- 丙公司置于第二段，只翻译为监测与报告支持；
+- 甲公司置于第三段，只保留Evidence追溯与不确定性识别；
+- SYN-EV-ALPHA-02不进入P2投递稿，因为市场比较框架与岗位核心职责距离较远；
+- Data Validation保持“相邻且高度相关（Adjacent Strong）”，禁止写成直接风险管理经历。
 
-## Safe Translation｜安全翻译
+## 岗位语言的安全翻译（Safe Translation）
 
-| Canonical Meaning | 岗位语言 | Status |
+| 原始事实含义 | 岗位语言 | 支持状态 |
 |---|---|---|
-| Industry Brief | 产业研究与管理层信息提炼 | K1 Supported |
-| Business-pattern Memo | 商业分析 | K2 Safe Translation |
-| Data Validation | 数据质量与规则解释支持 | K1 Supported / Adjacent Strong |
-| Weekly QA Summary | Monitoring / Risk-reporting Support | K2 Safe Translation |
-| Enterprise Strategy Ownership | — | K3 Gap |
-| Direct Risk-management Ownership | — | K3 Gap |
-| Risk Model Development | — | K3 Gap |
+| 行业简报 | 产业研究与管理层信息提炼 | K1｜已有Evidence直接支持 |
+| 商业模式备忘录 | 商业分析 | K2｜可安全翻译 |
+| 数据复核 | 数据质量与规则解释支持 | K1｜已有Evidence支持，属于Adjacent Strong |
+| 每周数据质量汇总 | 状态监测与风险报告支持 | K2｜可安全翻译 |
+| 企业级战略决策Ownership | — | K3｜明确缺口 |
+| 直接风险管理Ownership | — | K3｜明确缺口 |
+| 风险模型开发 | — | K3｜明确缺口 |
 
-Guardrails：全部通过。
+事实、责任与结果范围检查全部通过。
+
+返回主路径：[查看Evidence选择与决策轨迹](tailored_evidence_selection.md)
