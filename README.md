@@ -91,6 +91,8 @@ flowchart LR
 
 同一条经历可以被安全翻译为岗位语言，但Ownership、Result Scope与Technical Depth不能被升级。查看[Evidence选择结果](demo/02_resume_tailoring/tailored_evidence_selection.md)。
 
+同一Source of Truth如何分别生成P1战略分析岗与P2风险分析岗简历，见[P1 / P2同源简历Demo](demo/02_resume_tailoring/p1_p2_tailoring_comparison.md)。
+
 ### Demo：Interview Coach
 
 `Question Map → Answer Preparation → Mock → Prepared vs Actual vs Better → Learning Migration`
