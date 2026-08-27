@@ -37,7 +37,11 @@ flowchart LR
   F --> C
 ```
 
-系统将“事实维护、岗位决策、简历呈现、面试学习”分层管理。下游可以选择和翻译事实，但不能反向创造事实。完整说明见 [Overall Architecture](docs/architecture.md)。
+系统将“事实维护、岗位决策、简历呈现、面试学习”分层管理。下游可以选择和翻译事实，但不能反向创造事实。
+<p align="center">
+  <img src="assets/architecture/career_os_overall_architecture.png" alt="Career OS Overall Architecture" width="100%">
+</p>
+完整说明见 [Overall Architecture](docs/architecture.md)。
 
 ## 03｜三个核心模块
 
@@ -62,6 +66,14 @@ flowchart LR
 围绕实际提交Resume建立Question Map与Answer Preparation；通过Dynamic Mock、Raw Debrief、Story Readiness、Weakness Ledger和Learning Migration，把一次面试变成下一场可复用的学习资产。
 
 [查看公开Runtime](skills/interview-coach/README.md)
+
+### 端到端使用流程
+
+从候选人事实资产出发，Career OS 将选岗、简历定制、实际提交版本、面试准备与学习迁移连接成一条完整工作流。
+
+<p align="center">
+  <img src="assets/architecture/career_os_end_to_end_workflow.png" alt="Career OS End-to-end Workflow" width="100%">
+</p>
 
 ## 04｜3分钟 Synthetic Demo
 
@@ -90,6 +102,14 @@ flowchart LR
 `Canonical Evidence → Selected Evidence → Safe Translation → Tailored Resume`
 
 同一条经历可以被安全翻译为岗位语言，但Ownership、Result Scope与Technical Depth不能被升级。查看[Evidence选择结果](demo/02_resume_tailoring/tailored_evidence_selection.md)。
+
+### 同一事实底座，如何生成两份不同岗位简历
+
+同一候选人的事实不会因岗位变化而改变；变化的是 Evidence Priority、Experience Order 与 Safe Translation。
+
+<p align="center">
+  <img src="assets/architecture/same_candidate_different_resumes.png" alt="Same Candidate, Different Tailored Resumes" width="100%">
+</p>
 
 同一Source of Truth如何分别生成P1战略分析岗与P2风险分析岗简历，见[P1 / P2同源简历Demo](demo/02_resume_tailoring/p1_p2_tailoring_comparison.md)。
 
