@@ -44,6 +44,14 @@ flowchart LR
 
 完整说明见 [Overall Architecture](docs/architecture.md)。
 
+### 想建立自己的 Career OS？
+
+如果希望把这套方法用于自己的求职，第一步不是直接让AI写简历，而是先建立自己的候选人事实底座。
+
+Getting Started提供Quick Start、完整资产模板和AI协作方法；可以从现有简历、项目材料或个人回忆开始，不需要自己设计Schema或手写YAML。
+
+→ **[Getting Started｜建立自己的事实资产底座](getting-started/README.md)**
+
 ## 03｜三个核心模块
 
 ### Job Fit Analyzer｜有限名额应该投什么
