@@ -1,0 +1,21 @@
+# Synthetic Demo｜完全虚构示例，不使用任何真实候选人、企业、投递或面试数据。
+handoff_version: public-demo-v1
+organization: Company Delta
+display_organization: D公司（Company Delta）
+role: Strategy Analyst
+display_role: 战略分析岗（Strategy Analyst）
+application_priority: P1
+portfolio_role: Core Target
+priority_evidence:
+  - evidence_id: SYN-EV-ALPHA-01
+    match_level: direct
+    boundary: Candidate负责Research Draft，不拥有最终Strategy Decision。
+  - evidence_id: SYN-EV-GAMMA-01
+    match_level: adjacent
+    boundary: Candidate负责Analysis，不拥有最终Commercial Decision。
+priority_keywords: [industry_research, structured_analysis, management_briefs]
+unsupported_keywords: [enterprise_strategy_owner]
+supplementary_candidates: [SYN-EV-LEAD-01]
+resume_strategy:
+  emphasis: [research_synthesis, decision_relevance, analytical_breadth]
+  de_emphasis: [technical_modeling]

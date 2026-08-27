@@ -1,0 +1,21 @@
+# Synthetic Demo｜完全虚构示例，不使用任何真实候选人、企业、投递或面试数据。
+handoff_version: public-demo-v1
+organization: Company Delta
+display_organization: D公司（Company Delta）
+role: Risk Analyst
+display_role: 风险分析岗（Risk Analyst）
+application_priority: P2
+portfolio_role: Strong Complement
+priority_evidence:
+  - evidence_id: SYN-EV-BETA-01
+    match_level: adjacent_strong
+    boundary: Candidate提出Rule Clarification，最终审批由Data Owner负责。
+  - evidence_id: SYN-EV-GAMMA-01
+    match_level: transferable
+    boundary: Monitoring Experience不等同于Formal Risk Management。
+priority_keywords: [data_validation, rule_interpretation, risk_reporting_support]
+unsupported_keywords: [risk_model_owner, regulatory_compliance_owner]
+supplementary_candidates: [SYN-EV-LEAD-01]
+resume_strategy:
+  emphasis: [quality_control, evidence_traceability, careful_judgment]
+  de_emphasis: [investment_research]

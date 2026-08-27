@@ -1,0 +1,33 @@
+# 以下字段保持英文，作为公开Handoff Contract示例；不包含真实Family或Evidence ID。
+handoff_version: public-v1
+organization: string
+role: string
+location: string_or_null
+primary_family: valid_family_id
+secondary_family: valid_family_id_or_null
+routing_notes:
+  - string
+application_priority: P1_or_P2
+candidate_to_job_fit: enum
+competitiveness: enum
+job_to_candidate_fit: enum
+priority_evidence:
+  - evidence_id: stable_id
+    match_level: direct_or_adjacent_or_transferable
+    boundary: string
+    reason: string
+priority_keywords:
+  - supported_or_safe_translation_only
+unsupported_keywords:
+  - do_not_claim
+gaps:
+  - gap: string
+    resume_action: do_not_claim_or_contextualize
+resume_strategy:
+  emphasis:
+    - string
+  de_emphasis:
+    - string
+  supplementary_candidates:
+    - stable_id
+

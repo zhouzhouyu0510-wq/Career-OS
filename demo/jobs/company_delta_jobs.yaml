@@ -1,0 +1,33 @@
+# Synthetic Demo｜完全虚构示例，不使用任何真实候选人、企业、投递或面试数据。
+organization: Company Delta
+display_organization: D公司（Company Delta）
+recruiting_cycle: Synthetic Graduate Program
+application_constraints:
+  max_roles: 2
+  ordered_preferences: true
+  submission_editable: false
+roles:
+  - job_id: DELTA-STRAT
+    title: Strategy Analyst
+    display_title: 战略分析岗（Strategy Analyst）
+    responsibilities: [market_research, strategic_options, management_briefs]
+    must_have: [structured_analysis, written_synthesis]
+    preferred: [industrial_research]
+  - job_id: DELTA-RISK
+    title: Risk Analyst
+    display_title: 风险分析岗（Risk Analyst）
+    responsibilities: [data_quality, rule_monitoring, risk_reporting]
+    must_have: [analytical_judgment, attention_to_detail]
+    preferred: [risk_framework_exposure]
+  - job_id: DELTA-PROD
+    title: Product Analyst
+    display_title: 产品分析岗（Product Analyst）
+    responsibilities: [user_research, product_metrics, lifecycle_coordination]
+    must_have: [business_analysis, stakeholder_communication]
+    preferred: [product_internship]
+  - job_id: DELTA-DATA
+    title: Data Analyst
+    display_title: 数据分析岗（Data Analyst）
+    responsibilities: [querying, statistical_modeling, automated_reporting]
+    must_have: [sql, programming, statistical_modeling]
+    preferred: [production_data_pipeline_experience]

@@ -1,0 +1,30 @@
+# Synthetic Demo｜完全虚构示例，不使用任何真实候选人、企业、投递或面试数据。
+candidate_id: SYN-CAND-A
+display_name: 候选人A（Candidate A）
+education:
+  level: graduate_student
+  field: Economics
+  display_field: 经济学研究生（Economics graduate student）
+profile_summary: 具备产业研究、金融数据质量与商业分析三类Synthetic Experience，强调Evidence与Boundary。
+confirmed_capabilities:
+  - industry research
+  - structured analysis
+  - data validation
+  - stakeholder interviews
+  - written synthesis
+preferences:
+  favored_work:
+    - research with decision relevance
+    - structured analytical problems
+    - cross-functional learning
+  avoid_when_core:
+    - pure client acquisition
+    - software engineering ownership
+skills_boundary:
+  confirmed:
+    - spreadsheet analysis
+    - presentation writing
+  not_confirmed:
+    - production software development
+    - advanced statistical modeling
+    - trading execution
