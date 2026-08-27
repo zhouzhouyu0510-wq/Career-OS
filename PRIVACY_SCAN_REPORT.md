@@ -1,6 +1,6 @@
 # 公开发布隐私审计（Public Release Privacy Scan）
 
-审计范围：对Chinese-first Presentation Refactor完成后的Public Edition执行递归扫描。
+审计范围：对Human-readable Demo Layer Enhancement完成后的Public Edition执行递归扫描。
 
 ```yaml
 pii_found: 0
@@ -24,5 +24,4 @@ public_release_status: privacy_boundary_passed
 - `demo/`下每个文件首行的Synthetic Disclaimer
 - README、Demo与Skills的Relative Link
 
-本结果只证明当前Stage 01.5 Whitelist Export通过隐私边界，不授权公开任何私人Career OS目录或未来未经同等审计的新文件。
-
+本结果证明当前HR-readable Demo版本仍通过隐私边界，不授权公开任何私人Career OS目录或未来未经同等审计的新文件。
