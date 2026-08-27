@@ -41,6 +41,7 @@ flowchart LR
 <p align="center">
   <img src="assets/architecture/career_os_overall_architecture.png" alt="Career OS Overall Architecture" width="100%">
 </p>
+
 完整说明见 [Overall Architecture](docs/architecture.md)。
 
 ## 03｜三个核心模块
